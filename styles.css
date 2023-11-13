@@ -1,14 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Actor&family=Hind&family=Montserrat:wght@600&display=swap');
 
+* {
+    letter-spacing: 0.1rem;
+    /* border: 1px solid black; */
+}
+
 h1 {
     font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
 }
 
 h2 {
     font-family: 'Actor', sans-serif;
+    font-size: 1.6rem;
 }
 
 p, li {
     font-family: 'Hind', sans-serif;
+    font-weight: 400;
+}
 
+img {
+    width: 60vw;
+    max-width: 600px;
+    display: block;
+    margin: 2rem auto;
+    border: 1px solid black;
+    border-radius: 1rem;
 }
