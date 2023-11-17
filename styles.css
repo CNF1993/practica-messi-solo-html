@@ -24,11 +24,19 @@ p, li {
     font-weight: 400;
 }
 
+p::first-letter {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    float:inline-start;
+    margin-right: .5rem;
+}
+
 li {
     line-height: 1.8rem;
 }
 
-h1, p {
+
+h1 {
     text-align: center;
 }
 
