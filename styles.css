@@ -19,6 +19,14 @@ h2 {
     font-size: 1.6rem;
 }
 
+h2::before {
+    content: "- ";
+}
+
+h2::after {
+    content: " -";
+}
+
 p, li {
     font-family: 'Hind', sans-serif;
     font-weight: 400;
