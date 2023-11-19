@@ -11,7 +11,11 @@ main {
 }
 h1 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 2.5rem;
+    font-size: 3rem;
+    background: linear-gradient(90deg, rgba(118,180,245,1) 0%, rgb(235, 235, 141) 58%, rgba(118,180,245,1) 75%);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;;
 }
 
 h2 {
