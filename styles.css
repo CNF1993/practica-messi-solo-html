@@ -15,7 +15,7 @@ h1 {
     background: linear-gradient(90deg, rgba(118,180,245,1) 0%, rgb(235, 235, 141) 58%, rgba(118,180,245,1) 75%);
     color: transparent;
     background-clip: text;
-    -webkit-background-clip: text;;
+    -webkit-background-clip: text;
 }
 
 h2 {
@@ -48,7 +48,7 @@ li {
 }
 
 
-h1 {
+h1, h2 {
     text-align: center;
 }
 
@@ -60,4 +60,9 @@ img {
     border: 1px solid black;
     border-radius: 1rem;
     box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.5);
+}
+
+ul {
+    width: 50vw;
+    margin: 2rem auto;
 }
