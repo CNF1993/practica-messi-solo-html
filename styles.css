@@ -64,5 +64,6 @@ img {
 
 ul {
     width: 50vw;
+    min-width: 300px;
     margin: 2rem auto;
 }
